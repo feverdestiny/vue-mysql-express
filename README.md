@@ -23,6 +23,9 @@
 进入根目录下
 # 安装相关包依赖
 $ npm install     
+若安装失败，请使用淘宝镜像
+$ npm install cnpm -g --registry=https://registry.npm.taobao.org
+cnpm跟npm用法完全一致，只是在执行命令时将npm改为cnpm
 
 # 启动开发模式 
 $ npm run dev
